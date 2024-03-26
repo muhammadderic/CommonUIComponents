@@ -47,6 +47,10 @@
   align-items: center;
 }
 
+.header__search-bar {
+  display: flex;
+}
+
 .icon {
   cursor: pointer;
 }
