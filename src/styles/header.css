@@ -34,8 +34,9 @@
   gap: .5rem;
 }
 
-.navbar li {
+.navbar li a {
   color: #000;
+  text-decoration: none;
 }
 
 .header__profile,
@@ -51,14 +52,14 @@
 }
 
 .icon:hover {
-  fill: #014e5d;
+  fill: #0151a7;
 }
 
 .button {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
-  color: #0088a3;
+  color: #007bff;
   cursor: pointer;
   font-family: arial, sans-serif;
   font-size: 14px;
@@ -75,11 +76,11 @@
 
 .button:hover {
   border-color: #dadce0;
-  box-shadow: #0088a3 0 1px 1px;
-  color: #0088a3;
+  box-shadow: #007bff 0 1px 1px;
+  color: #014d9f;
 }
 
 .button:focus {
-  border-color: #0088a3;
+  border-color: #007bff;
   outline: none;
 }
